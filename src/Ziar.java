@@ -5,8 +5,5 @@ public class Ziar extends LibraryItems{
         super(title, author);
     }
 
-    @Override
-    public String toString() {
-        return "Ziar{}";
-    }
+
 }

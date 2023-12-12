@@ -6,6 +6,14 @@ public class LibraryItems {
         this.author = author;
     }
 
+    @Override
+    public String toString() {
+        return "LibraryItems{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
+
     public String getTitle() {
         return title;
     }
